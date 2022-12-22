@@ -1,0 +1,310 @@
+#container{
+    height: 100%;
+    box-sizing: border-box;
+    margin:0;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+
+}
+
+body{
+    background-color:white;
+    color:black;
+}
+.mydark{
+    background-color:rgb(37, 36, 36);
+    color:white;
+}
+.navbar{
+    padding-bottom: 56px;
+    min-width: 978px;
+    position: relative;
+    color: #f0f0f0;
+}
+.navbar1{
+    position: absolute;
+    display: flex;
+    width: 100% ;
+    height: 56px;
+    background-color: #2874f0;
+    color: #f0f0f0;
+    will-change: transform;
+    flex-direction: row;
+}
+.navbar2{
+    display: flex;
+    max-width: 1248px;
+    width: 100%;
+    height: 100%;
+    margin:auto;
+}
+.flipkart{
+    height: 100%;
+    min-width: 124px;
+    box-sizing: border-box;
+}
+.flipkart1 {
+    margin-top: 10px;
+    margin-left: 100px;
+}
+.explore{
+font-size: 12px;
+font-style: italic;
+margin-top: -1px;
+  }
+.explore:hover{
+    text-decoration: underline;
+    color: #ffe500;
+  }
+.plus{
+color: #ffe500;
+font-weight: 500;
+margin-right: 2px;
+  }
+.search{
+    width: 420px;
+    height: 34px;
+    background-color:white; 
+    margin-left: 90px;
+    margin-top: -36px;
+    display: flex;
+
+}
+
+
+.search1{
+    width: 380px;
+    height: 34px;
+}
+.searchbtn{
+    margin-top: -26px;
+    margin-left: 484px;
+    border-radius: 2px;
+}
+.Dark{
+    margin-top : -25px; 
+    margin-left: -10%;
+}
+.Dark button{
+    color: #2874f0;
+    border-radius: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.button{
+    margin-top: -23px;
+}
+.btn1{
+    color: #2874f0;
+font-weight: bold;
+background-color: #fff;
+cursor: pointer;
+padding: 5px 40px;
+border: 1px solid #dbdbdb;
+margin-top: 100px;
+margin-left: 520px;
+}
+.become{
+    margin-top: -15px;
+    margin-left: 700px;
+    font-weight: 300;
+}
+.more{
+    margin-top: -17px;
+    margin-left: 850px;
+    font-weight: 300;
+}
+.cart{
+    margin-left: 950px;
+    margin-top: -35px;
+}
+.nav2{
+    height: 40px;
+    width: 1360px;
+    border-radius: 1px;
+    color: #ffe500;
+}
+
+#grocery{
+    width: 100px;
+    height:80%;
+    margin: 1%;
+    float: left;
+}
+#mobiles{
+    width: 100px;
+    height:80%;
+    margin: 1%;
+    float: left;
+}
+
+#fashion{
+    width: 100px;
+    height:80%;
+    margin: 1%;
+    float: left;
+}
+#icons{
+    display: inline-block;
+    width: 100%;
+}
+#electronics{
+    width: 100px;
+    height:80%;
+    margin: 1%;
+    float: left;
+}
+#home{
+    width: 100px;
+    height:80%;
+    margin: 1%;
+    float: left;
+}
+#appliances{
+    width: 100px;
+    height:80%;
+    margin: 1%;
+    float: left;
+}
+#travel{
+    width: 100px;
+    height:80%;
+    margin: 1%;
+    float: left;
+}
+#topoffer{
+    width: 100px;
+    height:80%;
+    margin: 1%;
+    float: left;
+}
+#beautytoymore{
+    width: 100px;
+    height:80%;
+    margin: 1%;
+    float: left;
+}
+#twowheelers{
+    width: 100px;
+    height:80%;
+    margin: 1%;
+    float: left;
+}
+.text{
+    text-decoration: none;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: li;
+}
+.item>img{
+    height:300px !important;
+    width:100%;
+    
+}
+* {box-sizing:border-box}
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+  }
+
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  .slidetext {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  footer{
+    height: 300px;
+    width: 100%;
+    background-color: #172337;
+    color: white;
+    text-align: center;
+    margin-left: 10px;
+    
+}
+.footertext{
+    font-size: 20px;
+    display: inline-block;
+}
+#footdiv{
+    float: left; 
+    width: 25%;
+    height: 200px;  
+    color: #717171;
+
+}
+
+li{
+    list-style-type: none;
+    color: white;
+    font-size: 12px;
+}
+.footeritems{
+    margin-left: 5%;
+
+}
+.Flipkart5{
+    margin-left: 5%;
+}
+#stories{
+    font-size: 12px;
+    color: #878787;
+}
